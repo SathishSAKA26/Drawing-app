@@ -10,7 +10,7 @@
       href="./images/png-transparent-gold.png"
       type="image/x-icon"
     />
-    <title>Static - Boiler Plate</title>
+    <title>Drawing Application</title>
     <!-- fontAwesome CDN -->
     <link
       rel="stylesheet"
@@ -26,15 +26,12 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <canvas class="canvas"></canvas>
+    <canvas class="canvas" id="canva"></canvas>
     <div class="toolbox">
-      <div>
-        <h1 class="title">ToolBox</h1>
-      </div>
       <button class="btn dec" id="decrease">-</button>
-      <span class="size">10</span>
+      <span class="size" id="size">10</span>
       <button class="btn inc" id="increase">+</button>
-      <input type="color" name="colors" id="color" />
+      <input type="color" name="colors" id="color" class="input" />
       <button class="btn clr" id="clear">x</button>
     </div>
 
