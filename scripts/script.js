@@ -12,7 +12,7 @@ const ctx = canvasEl.getContext("2d");
 // global values
 let size = 10;
 let isPressed = false;
-colorEl.value = "red";
+colorEl.value = 'black';
 let color = colorEl.value;
 let x;
 let y;
